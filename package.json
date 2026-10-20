@@ -1,0 +1,13 @@
+{
+  "name": "demoqa-cypress-api",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API com Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run --spec cypress/e2e/api/bookstore.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
